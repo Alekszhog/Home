@@ -5,33 +5,32 @@ public class main {
         int[] arr = { 1, 0, 1, 0, 0, 1 };
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 1) {
-                arr[i] = 0
+                arr[i] = 0;
             } else {
-                arr[i] = 1
-                        arr[i] = (arr[i] + 1) % 2;
+                arr[i] = 1;
             }
         }
     }
     public static void fillArray() {
         int[] arr = new int[8];
         for (int i = 0; i < arr.length; i++) {
-            arr [i] += 3;
+                arr[i] += 3;
+            }
         }
     }
     public static void changeArray() {
-        int[] w = { 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 };
-        for (int i = 0; i < w.length; i++) {
+        int[] arr = { 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 };
+        for (int i = 0; i < arr.length; i++) {
             if (i < 6) {
-               i *= 2
+               i *= 2;
             }
         }
     }
     public static void fillDiagonal() {
-        int[][] arr = new int[4][4];
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                i == 1 && j == 1;
-            }
+        int[][] matr = new int[4][4];
+        for (int i = 0; i < matr.length; i++) {
+            matr[i][i] = 1;
+            matr[i][matr.length - 1 - i] = 1;
         }
     }
 
