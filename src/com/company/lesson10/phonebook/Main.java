@@ -1,10 +1,5 @@
 package com.company.lesson10.phonebook;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-
 public class Main {
     public static void main(String[] args) {
         List<String> words = new ArrayList<>();
