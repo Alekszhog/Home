@@ -10,7 +10,7 @@ import com.company.lesson8.obstacle.impl.Wall;
 
 public class main {
 
-    public static void(String[] args) {
+    public static void main(String[] args) {
         Athlete[] athletes = {
                 new Human(maxjumpHeight: 100, maxrunDistance: 100),
         new Robot(maxjumpHeight: 10, maxrunDistance: 1000),
